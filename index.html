@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- scripts -->
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="meal-wrapper">
+        <!-- Search component -->
+        <div class="meal-search">
+            <h2 class="title">Match meals to your ingredients</h2>
+            <blockquote>Tell me what you eat, and I will tell you who you are.<br>
+            <cite>-Jean Anthelme Brillat-Savarin</cite>
+            </blockquote>
+
+            <div class="meal-search-box">
+                <input type="text" id="search-input" class="search-control" placeholder="Enter Ingredient" >
+                <button type="submit" class="search-btn btn" id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Search component -->
+        
+        <!-- Results component -->
+        <div class="meal-result">
+            <h2 class="title">Your search results:</h2>
+            <div id="meal">
+                <!-- meal item start-->
+                <div class="meal-item">
+                   
+                    <div class="meal-img">
+                        <img src="images/food.jpg" alt="Potato Chips">
+                    </div>
+                  
+                    <div class="meal-name">
+                        <h3>Potato Chips</h3>
+                        <a href="#" class="recipe-btn">Get recipe</a>
+                    </div>
+                    
+                </div>
+                <!-- meal item end-->
+               
+            </div>
+        </div>
+        <!-- Results component -->
+
+        <div class="meal-details">
+            <!-- recipe close button -->
+            <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- meal details -->
+            <div class="meal-details-content">
+                <h2 class="recipe-title">Meal Name Here</h2>
+                <p class="recipe-category">Category Name</p>
+                <div class="recipe-instruct">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsam quibusdam sed corrupti voluptas laudantium consectetur unde dicta deserunt ex.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsam quibusdam sed corrupti voluptas laudantium consectetur unde dicta deserunt ex.</h3>
+                </div>
+                <div class="recipe-meal-img">
+                    <img src="images/food.jpg" alt="food">
+                </div>
+                <div class="recipe-link">
+                    <a href="#" target="_blank">Watch video</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
