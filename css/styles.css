@@ -21,6 +21,33 @@ body {
   font-family: "poppins", sans-serif;
 }
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 35px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #923706;
+  border-radius: 2rem;
+  height: 70px;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eb5200;
+}
+
 .btn {
   cursor: pointer;
   outline: 0;
